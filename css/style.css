@@ -1,0 +1,115 @@
+html {
+  margin: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  max-height: 100%;
+  min-height: 100%;
+  font-style: 'Roboto', Helvetica, sans-serif;
+}
+
+.masthead-heading,
+.masthead-intro {
+    text-align: center;
+}
+
+.masthead {
+    padding: 6em 0;
+     -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(1,1,1,1)), to(rgba(1,1,1,1)));
+    background-image: url('https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a40432a29a1c55fc0b2ec7f1f2271877');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.margin {
+  font color: white;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+}
+
+div {
+  text-align: center;
+  font-weight: 100rem;
+  font-size: 2em;
+  color: white;
+  font-style: 'Roboto';
+}
+body {
+  color: black;
+  font-family: 'Roboto';
+}
+#cf {
+position: relative;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin:10 auto;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+#cf img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 100%;
+  margin: .10em;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  max-height: 100%
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  border: none;
+}
+div.Panels {
+  color: black;
+}
+#cf img.top:hover {
+  border-radius: 50%;
+  opacity:0;
+}
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+    .masthead-heading {
+        font-size: 3em;
+    }
+  
+
+  .footer {
+    max-width: 75em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 1.25rem;
+
+  }
+  .footer:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .section.dark {
+    background-color: #272727;
+  }
+  div.footer {
+    color: black;
+  }
