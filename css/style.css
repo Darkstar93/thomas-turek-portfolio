@@ -37,9 +37,7 @@ body {
   text-decoration: none;
 }
 
-.menu .navigation li a:hover {
-  background-color: #111;
-}
+
 
 
 
@@ -297,8 +295,9 @@ body {
 }
 
 #layers .layer {
-    background-size: auto 100%;
-    background-position: 50% 0;
+    max-width: 100%;
+    background-size: 100%;
+    background-position: 20% 100%;
     background-repeat: repeat-y;
     height: 200px;
     left: 0;
@@ -482,6 +481,7 @@ img {
 }
 
 ul {
+
     padding: none;
 }
 
@@ -493,3 +493,19 @@ ul {
     max-height: 100%;
     width: 100%;
 }
+
+
+
+.fa {
+    color: orange;
+
+}
+
+.fa:hover {
+    color: white;
+}
+
+.fa:visited {
+    color: gray;
+}
+
