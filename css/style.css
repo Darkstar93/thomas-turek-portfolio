@@ -1,8 +1,7 @@
 html {
     margin: 0;
     border: 0;
-    height: 100%;
-    width: 100%;
+    
 }
 
 * {
@@ -15,6 +14,8 @@ html {
 body {
     max-height: 100%;
     min-height: 100%;
+    max-width: 100%
+    min-width: 100%;
     font-style: Roboto,Helvetica,sans-serif;
     background-color: black;
     color: #737373;
@@ -30,7 +31,7 @@ body {
 
 .menu .navigation {
   display: block;
-  color: white;
+  
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -70,7 +71,8 @@ body {
     width: 150px;
     border-radius: 50%;
     border: 7px solid #fff;
-    border-bottom-width: 2px;
+    border-bottom-width: 2px
+
 }
 
 .short {
@@ -82,36 +84,42 @@ img:hover {
     color: red;
 }
 .topcon {
-  left: 6rem;
-  padding-left: 12rem;
-    overflow-wrap: normal;
+  
+  text-align: center;
+    overflow-wrap: none;
 }
 
 .profilepic {
     padding: 3px;
     padding-bottom: 3px;
     position: relative;
+    text-align: center; 
 }
 
 .header {
     max-width: 100%;
     padding-top: .1rem;
     padding-bottom: 1.25rem;
+    text-align: center;
 }
 
 .header .about h4 {
     color: #fff;
+    position: relative;
+    padding: 12px;
+    text-align: center;
 }
 
-.header h4 ul {
+.header h4  {
     margin-left: 4.6875rem;
-    max-width: 400px;
+    max-width: 100%;
 }
 
 h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
     margin-bottom: 1.25rem;
     font-weight: 400;
+
 }
 
 h3 {
@@ -132,6 +140,7 @@ h4 {
     -webkit-margin-before: 1.33em;
     -webkit-margin-after: 1.33em;
     -webkit-margin-end: 0;
+    text-align: center;
 }
 
 p {
@@ -220,17 +229,8 @@ body {
     animation: 1s blink step-end infinite;
 }
 
-ul {
-    list-style: none;
-    display: block;
-}
 
-.icons {
-  display: inline;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
+
 @keyframes blink {
     from,to {
         color: transparent;
@@ -462,26 +462,34 @@ img {
 
 .footcontainer {
     text-align: center;
+    position: relative;
+    
 }
 
 
-.footicon {
-  display: inline;
-  position:absolute;
-  top:50%;
-  left:50%;
-  -ms-transform:translate(-50%,-50%);
-  -webkit-transform:translate(-50%,-50%);
-  transform:translate(-50%,-50%);
+.faicon {
+    color: orange;
+    display: inline-block;
+    position: relative;
+    
 }
 
-/* Icons */
+.aboutnav2 {
+    font-size: 2.5em;
+    text-align: center;
+    padding: 12px;
 
-i {
-    display: inline;
 }
 
-.fa {
-    color: white;
-    display: inline;
+ul {
+    padding: none;
+}
+
+.about {
+    position: center;
+    padding: 21px;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
 }
