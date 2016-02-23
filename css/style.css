@@ -1,0 +1,524 @@
+html {
+    margin: 0;
+    border: 0;
+    
+}
+
+* {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 100%;
+    min-height: 100%;
+    max-width: 100%
+    min-width: 100%;
+    font-style: Roboto,Helvetica,sans-serif;
+    background-color: black;
+    color: #737373;
+    font-family: 'Roboto';
+}
+.menu .navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333
+}
+
+.menu .navigation {
+  display: block;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+
+
+#margin {
+    color: #fff;
+    font-size: 32px;
+    display: block;
+    padding: 16px;
+}
+
+.frontend {
+    color: #fff;
+    padding-left: 16px;
+    font-size: 72px;
+}
+
+.social li {
+    display: inline-block;
+    padding-right: 2em;
+}
+
+.about img {
+   
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: -2%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    border-bottom-width: 2px
+
+}
+
+.poop {
+
+}
+
+.short {
+    text-align: center;
+    padding-left: auto;
+}
+
+img:hover {
+    color: red;
+}
+.topcon {
+  
+  text-align: center;
+    overflow-wrap: none;
+}
+
+.profilepic {
+    padding: 3px;
+    padding-bottom: 3px;
+    position: relative;
+    text-align: center; 
+    width: 100%;
+    height: 100%;
+}
+
+.mepic {
+    border-radius: 100%;
+    width: 10;
+    height: 100px;
+    border: 2.5px solid;
+    border-color: white;
+}
+
+.header {
+    max-width: 100%;
+    padding-top: .1rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+}
+
+.header .about h4 {
+    color: #fff;
+    position: relative;
+    padding: 12px;
+    text-align: center;
+}
+
+.header h4  {
+    margin-left: 4.6875rem;
+    max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+
+}
+
+h3 {
+    margin-top: 32px;
+    font-size: 40px;
+}
+
+.project-header {
+    text-align: left;
+    padding-left: 16px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 1.575rem;
+    padding: 21px;
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-end: 0;
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    font-weight: 300;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    color: white;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: .09em 0;
+    padding: 0;
+}
+
+h3 .project-header {
+    color: #fff;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.grid {
+    list-style: none;
+    padding: 14px 0 0 14px;
+    background: #000;
+    overflow: hidden;
+    max-width: 100%;
+/* 400*3 + 14*4 */
+    margin: 0 auto;
+}
+
+.grid li {
+    padding: 0 14px 14px 0;
+    text-align: center;
+}
+
+.grid figure {
+    margin: 0;
+}
+
+.grid img {
+    max-width: 100%;
+}
+
+@media (min-width: 429px) {
+    /* 400*1 + 14*2 + 1 */
+    .grid li {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (min-width: 843px) {
+    /* 400*2 + 14*3 + 1 */
+    .grid li {
+        width: 33.33333%;
+    }
+}
+
+.blinking-cursor {
+    font-weight: 100;
+    font-size: 36px;
+    color: #fff;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+
+
+@keyframes blink {
+    from,to {
+        color: transparent;
+    }
+
+    50% {
+        color: #fff;
+    }
+}
+
+@-moz-keyframes blink {
+    from,to {
+        color: transparent;
+    }
+
+    50% {
+        color: #fff;
+    }
+}
+
+@-webkit-keyframes blink {
+    from,to {
+        color: transparent;
+    }
+
+    50% {
+        color: #fff;
+    }
+}
+
+@-ms-keyframes blink {
+    from,to {
+        color: transparent;
+    }
+
+    50% {
+        color: #fff;
+    }
+}
+
+@-o-keyframes blink {
+    from,to {
+        color: transparent;
+    }
+
+    50% {
+        color: #fff;
+    }
+}
+
+.stars {
+    background: linear-gradient(0deg,#383d95,#040d30 90%) no-repeat #383d95;
+    min-height: 100%;
+    margin: 0;
+}
+
+#layers {
+    height: 200px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+
+#layers .layer {
+    max-width: 100%;
+    background-size: 100%;
+    background-position: 20% 100%;
+    background-repeat: repeat-y;
+    height: 200px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translate3d(0,0,0);
+    width: 200vw;
+}
+
+@keyframes twinkle {
+    from {
+        opacity: .3;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes layer-1 {
+    from {
+        transform: translate3d(0,0,0);
+    }
+
+    to {
+        transform: translate3d(-689px,0,0);
+    }
+}
+
+#layers .layer:nth-child(1) {
+    animation: twinkle 10s ease-in -5s infinite alternate,layer-1 344s linear infinite;
+    background-image: url(https://rogertalk.com/s/stars1.png);
+}
+
+@keyframes layer-2 {
+    from {
+        transform: translate3d(0,0,0);
+    }
+
+    to {
+        transform: translate3d(-699px,0,0);
+    }
+}
+
+#layers .layer:nth-child(2) {
+    animation: twinkle 3s ease-in -3s infinite alternate,layer-2 349s linear infinite;
+    background-image: url(https://rogertalk.com/s/stars2.png);
+}
+
+@keyframes layer-3 {
+    from {
+        transform: translate3d(0,0,0);
+    }
+
+    to {
+        transform: translate3d(-699px,0,0);
+    }
+}
+
+#layers .layer:nth-child(3) {
+    animation: twinkle 3.5s ease-in infinite alternate,layer-3 349s linear infinite;
+    background-image: url(https://rogertalk.com/s/stars3.png);
+}
+
+@keyframes layer-4 {
+    from {
+        transform: translate3d(0,0,0);
+    }
+
+    to {
+        transform: translate3d(-480px,0,0);
+    }
+}
+
+#layers .layer:nth-child(4) {
+    animation: twinkle 10s ease-in -2s infinite alternate,layer-4 240s linear infinite;
+    background-image: url(https://rogertalk.com/s/stars4.png);
+}
+
+@keyframes layer-5 {
+    from {
+        transform: translate3d(0,0,0);
+    }
+
+    to {
+        transform: translate3d(-486px,0,0);
+    }
+}
+
+#layers .layer:nth-child(5) {
+    animation: twinkle 5.5s ease-in infinite alternate,layer-5 243s linear infinite;
+    background-image: url(https://rogertalk.com/s/stars5.png);
+}
+
+@keyframes shooting-star {
+    0% {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate3d(-270px,180px,0);
+    }
+}
+
+#layers:before {
+    animation: 500ms linear 3s shooting-star;
+    background-image: url(https://rogertalk.com/s/shootingstar.png);
+    background-size: 72px 50px;
+    content: ' ';
+    height: 50px;
+    left: 80%;
+    position: absolute;
+    top: -50px;
+    width: 72px;
+    z-index: 100;
+}
+
+.projectimg {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+@media {
+    body {
+        max-width: 100%;
+    }
+
+    .margin {
+        max-height: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+
+.footcontainer {
+    text-align: center;
+    position: relative;
+    
+}
+
+
+.faicon {
+    color: orange;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.aboutnav2 {
+    font-size: 2.5em;
+    text-align: center;
+    padding: 12px;
+
+}
+
+ul {
+
+    padding: none;
+}
+
+.about {
+    position: center;
+    padding: 21px;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+
+
+
+.fa {
+    color: orange;
+
+}
+
+.fa:hover {
+    color: white;
+}
+
+.fa:visited {
+    color: gray;
+}
+
